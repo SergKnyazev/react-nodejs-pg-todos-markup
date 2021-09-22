@@ -1,0 +1,41 @@
+$dark-color: rgb(39, 40, 44);
+$header-text-color: rgb(124, 138, 255);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+}
+
+// header,
+// footer {
+//   display: grid;
+//   place-items: center;
+//   background-color: rebeccapurple;
+//   color: #fff;
+// }
+
+main {
+  // padding: 1rem;
+  // max-width: 80ch;
+  // margin: 0 auto;
+}
+
+// h1 {
+//   font-size: 4rem;
+// }
+
+// p {
+//   font-size: 1.125rem;
+//   line-height: 1.5;
+// }

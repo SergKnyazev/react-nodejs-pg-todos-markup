@@ -1,7 +1,4 @@
-$color: red;
-
-h1 {
-  color: $color;
-}
-
+@import "./scss/global";
 @import "./scss/header";
+@import "./scss/main";
+@import "./scss/footer";

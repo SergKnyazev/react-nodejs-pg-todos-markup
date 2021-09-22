@@ -1,8 +1,38 @@
-h1 {
-  color: red;
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-h2 {
-  color: blue;
+body {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.header {
+  background-color: #27282c;
+  color: #7c8aff;
+  height: 10vh;
+}
+
+.main {
+  background-color: yellowgreen;
+}
+
+.footer {
+  background-color: #27282c;
+  color: #7c8aff;
+  height: 10vh;
 }
 /*# sourceMappingURL=style.css.map */
